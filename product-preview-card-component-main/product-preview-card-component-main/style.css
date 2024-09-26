@@ -1,0 +1,107 @@
+:root{
+    /*Primary*/
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+   /* Neutral*/
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+*{
+   margin: 0;
+   padding: 0;
+ }
+ html, body {
+    font-family:__;
+    height:100%;
+    width:100%;
+    background-color:var(--Cream);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+   }
+
+    main{
+     display: flex;
+     width: 500px; 
+     margin: 0%;
+     padding: 0%;
+     height: auto;
+     border-radius: 5px 0px 0px 5px;
+     background-color:var(--White);
+    position: relative;
+     
+    }
+    
+    .hero img{
+        height: 100%;
+        width: 240px;
+        border-radius: 5px 0px 0px 5px;
+        display: inherit;
+    }
+    header{
+        padding: 25px;
+        height: 350px;
+        width: 210px;
+    }
+    h4{
+        font-family:"Montserrat";
+        font-size: 14px;
+        letter-spacing: 4px;
+        font-weight: 350;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: hsl(228, 12%, 48%);
+    }
+   
+   h1{
+    font-size: 35px;
+    line-height: 33px ;
+   }
+   p{
+    margin: 15px 0px;
+    font-size: 16px;
+    color:hsl(228, 12%, 48%);
+
+   }
+   .priecs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color:var(--Dark-cyan);
+   }
+  
+   .priecs p{
+    text-decoration: line-through;
+    font-size: 11px;
+
+   }
+   h2{
+    font-size: 25px;
+
+   }
+   button{
+    padding: 10px 60px ;
+    background-color: var(--Dark-cyan);
+    border: none;
+    border-radius: 5px;
+    color: var(--White);
+    font-weight: bold;
+    margin-top: 25px;
+    display: flex;
+   }
+  
+     
+
+ @media (max-width:500px) {
+    
+   
+
+
+
+ }
+ 
+
+
